@@ -15,7 +15,9 @@ public class PhoneBook {
     private final Map<String, List<String>> entries = new HashMap<String, List<String>>();
 
     public PhoneBook(){
-        this.addEntry("fff", new String[] {"345345", "53453453"});
+        this.addEntry("Иванов И.И.", new String[] {"+8 800 2000 500", "+8 800 200 600"});
+        this.addEntry("Петров П.П.", new String[] {"+8 800 2000 700"});
+        this.addEntry("Сидоров С.С.", new String[] {"+8 800 2000 800", "+8 800 2000 900", "+8 800 2000 000"});
     }
 
     private void  addEntry(String name, String[] phoneNumbers) {
