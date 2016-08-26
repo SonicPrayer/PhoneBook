@@ -18,6 +18,7 @@ public class PhoneBook {
         this.addEntry("Иванов И.И.", new String[] {"+8 800 2000 500", "+8 800 200 600"});
         this.addEntry("Петров П.П.", new String[] {"+8 800 2000 700"});
         this.addEntry("Сидоров С.С.", new String[] {"+8 800 2000 800", "+8 800 2000 900", "+8 800 2000 000"});
+
     }
 
     private void  addEntry(String name, String[] phoneNumbers) {
